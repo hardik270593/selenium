@@ -9,7 +9,7 @@ public class edge_test {
 
         WebDriver driver = new EdgeDriver();
 
-        driver.get("https://www.google.com/");
+        driver.get("https://demo.nopcommerce.com/");
         driver.getTitle();
         System.out.println(driver.getTitle());
     }

@@ -2,7 +2,6 @@ package web_driver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class web_driver_connection {
@@ -20,7 +19,7 @@ public class web_driver_connection {
 
         WebDriver driver1 = new FirefoxDriver();
 
-        driver1.get("https://www.google.com/");
+        driver1.get("https://demo.nopcommerce.com/");
         driver1.getTitle();
         System.out.println(driver1.getTitle());
 
